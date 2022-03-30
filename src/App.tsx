@@ -1,6 +1,12 @@
+import React from "react";
+import Header from "components/Header";
+import "styles/default-styles.scss";
+
 function App() {
   return (
-    <h1>Teste</h1>
+    <React.Fragment>
+      <Header />
+    </React.Fragment>
   );
 }
 
