@@ -1,12 +1,12 @@
-import React from "react";
-import Header from "components/Header";
 import "styles/default-styles.scss";
+import { BrowserRouter } from "react-router-dom";
+import AppRoutes from "routes";
 
 function App() {
   return (
-    <React.Fragment>
-      <Header />
-    </React.Fragment>
+    <BrowserRouter>
+      <AppRoutes />
+    </BrowserRouter>
   );
 }
 

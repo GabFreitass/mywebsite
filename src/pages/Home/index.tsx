@@ -1,5 +1,4 @@
-import React from 'react'
-import "Home.scss";
+import "styles.scss";
 
 function Home() {
   return (
@@ -9,4 +8,4 @@ function Home() {
   )
 }
 
-export default Home
+export default Home;
