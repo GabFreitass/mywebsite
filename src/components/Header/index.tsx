@@ -1,6 +1,14 @@
+import "./styles.scss";
+// import {govLogo} from "../../assets/images";
+
 function Header() {
   return (
-    <h1></h1>
+    <header className="container-header">
+      <nav className="container-acessibility"></nav>
+      <div className="container-header__content">
+        <img src="" alt="Governo do Estado do Ceará" />
+      </div>
+    </header>
   );
 }
 
