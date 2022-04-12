@@ -1,19 +1,27 @@
-$fontFamily: "Nunito", sans-serif;
-
 .container-header {
-    height: 25vh;
-    width: 100vw;
+    background-color: var(--background-primary);
+}
 
-    .container-acessibility {
-        background-color: #f2f2f2;
-        width: 100%;
-        height: 20%;
+.navigation-menu {
+    display: flex;
+    padding: 1rem;
+    gap: 3rem;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+
+    a {
+        font-family: var(--fontFamily-primary);
+        color: #ffffffbf;
+        font-size: 1rem;
+        transition: color 200ms ease-in;
+
+        &:hover {
+            color: #ff8418;
+        }
     }
 
-    &__content {
-        width: 100%;
-        height: calc(80% - 5px);
-        background-color: #2D4040;
-        border-bottom: 5px solid #87C878;
+    #logo-img {
+        height: 80px;
     }
 }

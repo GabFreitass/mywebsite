@@ -1,0 +1,31 @@
+$color-card: #242328;
+
+.container-cardProduto {
+    background-color: $color-card;
+    width: 300px;
+    height: 400px;
+    border-radius: 20px;
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid transparent;
+    transition: border-color 200ms ease-in-out, transform 200ms ease-in-out;
+
+    &:hover {
+        transform: translateY(-30px);
+        border-color: #ff8418;
+    }
+
+    img {
+        height: 250px;
+    }
+
+    h2 {
+        font-family: var(--fontFamily-primary);
+        font-weight: 600;
+        font-size: 1.2rem;
+        color: #797a95;
+    }
+}

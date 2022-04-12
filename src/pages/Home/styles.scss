@@ -1,0 +1,15 @@
+.container-home {
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #fff;
+
+    &__roleCards {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+        padding: 2rem;
+        justify-content: center;
+        align-items: center;
+    }
+}
